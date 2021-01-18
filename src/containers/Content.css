@@ -1,0 +1,243 @@
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.hero {
+  width: 100%;
+  height: 800px;
+  margin-top: 20px;
+}
+.hero-image {
+  background-image: url("../images/excursion-castillo-neuschwanstein-tren.jpg");
+
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* margin-bottom: 300px; */
+}
+hr {
+  background: #e9f3fe;
+}
+.hero-text {
+  position: absolute;
+  width: 800px;
+  height: 900px;
+  left: 220px;
+  top: 337px;
+  background: #ffffff;
+}
+.hero-text ul > li {
+  left: calc(50% - 125px / 2 - 418.5px);
+  top: calc(50% - 18px / 2 - 2498.5px);
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  /* identical to box height, or 75% */
+
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #0e3258;
+}
+.hero-text h1 {
+  position: absolute;
+  left: 16.46%;
+  right: 3.6%;
+  top: 5.93%;
+  bottom: 88.19%;
+
+  font-family: PoetsenOne;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 62px;
+  line-height: 18px;
+  /* or 25% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.3px;
+
+  color: #0e3258;
+}
+.hero-text .p1 {
+  position: relative;
+  margin-top: 150px;
+  
+  left: calc(50% - 125px / 2 - 78.5px);
+  top: calc(50% - 18px / 2 - 2287.5px);
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 75% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #0e3258;
+}
+.overview .star{
+  top:11px;
+  left: 20px;
+}
+.overview p{
+  display: inline;
+  padding-left: 120px;
+
+}
+
+.hero-text .p2 {
+  position: relative;
+  margin-top: 30px;
+  left: calc(63% - 125px / 2 - 78.5px);
+  top: calc(50% - 18px / 2 - 2287.5px);
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 75% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #0e3258;
+}
+
+.photos {
+  height: 800px;
+  width: 800px;
+  left: 150px;
+  top: 800px;
+}
+.photos .img1 {
+  position: absolute;
+  display: inline;
+  width: 250px;
+  height: 210px;
+  left: 20px;
+}
+.photos .img2 {
+  position: absolute;
+  display: inline;
+  width: 250px;
+  height: 210px;
+  left: 280px;
+}
+.photos .img3 {
+  position: absolute;
+  display: inline;
+  width: 250px;
+  height: 210px;
+  left: 540px;
+}
+.img4 {
+  background-image: url('../images/04.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  width: 770px;
+  height: 220px;
+  left: 20px;
+  top: 220px;
+}
+.img4 h1{
+  position: absolute;
+  top: 120px;
+  left: 220px;
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 40px;
+/* identical to box height, or 56% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.3px;
+
+color: #FFFFFF;
+}
+
+.text {
+  position: absolute;
+  width: 773px;
+  height: 400px;
+  left: 20px;
+  top: 770px;
+
+  font-family: Mulish;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 40px;
+  /* or 167% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+
+  color: #666666;
+}
+
+.contact{
+  padding-left: 20px;
+}
+.contact h5 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  /* or 60% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #0e3258;
+}
+.contact p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 18px;
+  /* or 112% */
+
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: 0.3px;
+
+  color: #1c84ff;
+}
+.map {
+  position: absolute;
+  width: 286px;
+  height: 361px;
+  left: 500px;
+  top: 1230px;
+}
+.map img {
+  width: 286px;
+  height: 381px;
+}

@@ -1,0 +1,197 @@
+.reviews {
+  position: absolute;
+  width: 800px;
+  height: 900px;
+  left: 220px;
+  top: 2100px;
+  background: #ffffff;
+}
+
+.reviews .p1 {
+  position: relative;
+  left: 360px;
+  font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #0E3258;
+}
+.reviews .p2 {
+  position: absolute;
+  width: 121px;
+  height: 18px;
+  left: calc(50% - 121px / 2 + 250.5px);
+  top: 50px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+  /* identical to box height, or 75% */
+
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  color: #0e3258;
+}
+
+.reviews-person .review1 img {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: 100px;
+  border-radius: 50%;
+}
+.reviews-person .review1 .name {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  position: absolute;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #0e3258;
+}
+.reviews-person .review1 .review-star{
+  position: absolute;
+  left: 98px;
+  top: 130px;
+}
+.reviews-person .review1 .title {
+  position: absolute;
+  left: 640px;
+  top: 100px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 500;
+ line-height: 18px;
+letter-spacing: 0.1px;
+  color: #0e3258; 
+}
+
+.reviews-person .review1 button{
+    position: absolute;
+width: 210px;
+height: 44px;
+left: 580px;
+top: 140px;
+background: #E9F3FE;
+border-radius: 10px;
+}
+.reviews-person .review1 .review-title {
+    position: absolute;
+    top: 190px;
+    
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    /* or 133% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    
+    color: #0E3258;
+  }
+  .reviews-person .review1 .review-desc{
+    position: absolute;
+    top: 230px;
+    
+    font-family: Mulish;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    /* or 167% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+    
+    color: #666666;
+  }
+ 
+.reviews-person .review2 img {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 450px;
+    border-radius: 50%;
+  }
+  .reviews-person .review2 .name {
+    position: absolute;
+    left: 100px;
+    top: 450px;
+    position: absolute;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #0e3258;
+  }
+  .reviews-person .review2 .review-star2{
+    position: absolute;
+    left: 98px;
+    top: 480px;
+  }
+  .reviews-person .review2 .title {
+    position: absolute;
+    left: 600px;
+    top: 450px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 500;
+   line-height: 18px;
+  letter-spacing: 0.1px;
+    color: #0e3258; 
+  }
+  
+  .reviews-person .review2 .review-title {
+      position: absolute;
+      top: 540px;
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      /* or 133% */
+      
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.2px;
+      
+      color: #0E3258;
+    }
+    .reviews-person .review2 .review-desc{
+      position: absolute;
+      top: 580px;
+      
+      font-family: Mulish;
+      font-style: italic;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 30px;
+      /* or 167% */
+      
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.3px;
+      
+      color: #666666;
+    }
