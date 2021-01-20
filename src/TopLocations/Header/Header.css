@@ -1,0 +1,74 @@
+
+.search-area {
+    margin-left: 250px;
+    width: 600px;
+    height: 75px;
+    background: #FFFFFF;
+    display: flex;
+    
+}
+.search-box{
+    border: none;
+}
+.horizontal-devider {
+    height: 60px;
+    margin-top: 10px;
+    position: absolute;
+left: 300px;
+top: px;
+    border-left: 1px solid rgb(27, 26, 26);
+}
+.login{
+    position: absolute;
+width: 100px;
+height: 75px;
+left: 1180px;
+top: 8px;
+display: flex;
+background: #FFFFFF;
+}
+.signup{
+    position: absolute;
+    width: 100px;
+    height: 75px;
+left: 1280px;
+top: 8px;
+color:#FFFFFF;
+
+background: #0E3258;
+}
+.navbar-nav .login .a1{
+    position: relative;
+    left: 20px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    
+    color: #0E3258;
+}
+.navbar-nav .signup .a2{
+    position: relative;
+    left: 20px;
+    top: 18px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    
+    color: #FFFFFF;
+}
