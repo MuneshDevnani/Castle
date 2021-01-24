@@ -1,6 +1,11 @@
+.rating{
+    width: auto;
+    padding-right:5px;
+}
 .star{
     position: relative;
     color: #FBBC05;
     padding-left: 2px;
+    /* display: inline; */
     /* border-radius: 1px; */
     }

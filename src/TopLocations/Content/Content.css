@@ -1,5 +1,17 @@
+
+.heading h1{
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 40px;
+letter-spacing: 0.1px;
+color: #0E3258;
+}
+
 .card {
   border-radius: 16px;
+  position: relative;
   background: #ffffff;
   padding: 4px;
   height: auto;
@@ -10,10 +22,16 @@
   width: 140px;
   height: 230px;
   left: 5px;
-  /* top: 4px; */
+  display: block;
   border-radius: 16px;
 }
-
+.card .col .fa-bookmark{
+     left: 250px; 
+     top: 10px;
+     font-size: 22px;
+     color: #FFC700;
+    position: absolute; 
+}
 .dot {
   position: absolute;
   width: 4px;
@@ -24,16 +42,18 @@
 .card .card-title {
   position: relative;
   top: 10px;
+  margin-bottom: 12px;
   font-family: Mulish;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
   line-height: 18px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.3px;
   color: #000000;
+}
+.card .card-title i{
+    position: absolute;
+    left: 500px;
 }
 .card .text {
   position: absolute;
@@ -55,6 +75,10 @@
     height: 40px;
     width: 40px;
     display: inline;
+}
+.card .person p{
+    display: inline;
+
 }
 .card .desc {
   position: relative;

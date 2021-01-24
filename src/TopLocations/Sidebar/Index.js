@@ -2,8 +2,16 @@ import React from 'react'
 import './Sidebar.css'
 function Index() {
     return (
-        <div className="nav-side-menu col-lg-3">
-            <div className="brand">Brand Logo</div>
+        <div className="nav-side-menu col-lg-3 col-md-2">
+            <div className="brand">Filters</div>
+            <div className="filter-div">
+            <p className="filter">$</p>
+            <p className="filter">$$</p>
+            <p className="filter selected">$$$</p>
+            <p className="filter">$$$$</p>
+            </div>
+            <div class="devider">
+                      </div>
             <i className="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content" />
             <div className="menu-list">
                 <ul id="menu-content" className="menu-content collapse out">
@@ -21,6 +29,8 @@ function Index() {
                         <li><a href="#">Hamburg</a></li>
                         <li><a href="#">Augsburg</a></li>
                     </ul>
+                    <div class="devider">
+                      </div>
                     <li >
                         <a href="#"> Brows Category</a>
                     </li>

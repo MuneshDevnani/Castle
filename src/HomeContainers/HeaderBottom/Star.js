@@ -3,7 +3,7 @@ import "./Star.css";
 
 export default function Star() {
     return (
-        <div>
+        <div className="rating">
                 <span className="star">&#9733;</span>
                 <span className="star">&#9733;</span>
                 <span className="star">&#9733;</span>
